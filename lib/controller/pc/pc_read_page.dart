@@ -22,7 +22,6 @@ class _PCReadPageState extends State<PCReadPage> {
   int currentButtonIndex = -1;
   bool showSettingArea = false;
 
-  double _imageHeight = 0.0; // 初始化图片高度
 
   @override
   Widget build(BuildContext context) {
@@ -132,7 +131,6 @@ class _PCReadPageState extends State<PCReadPage> {
                         return Util.buildImage(path);
                       },
                     ),
-                    // SizedBox(height: _imageHeight), // 根据图片高度调整间距
                     Container(
                       padding: const EdgeInsets.all(16),
                       child: Text('这里是底部的内容。'),

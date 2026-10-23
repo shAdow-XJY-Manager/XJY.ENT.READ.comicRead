@@ -423,7 +423,7 @@ class _ComicReadState extends State<ComicRead> {
   }
 
   void select(int next) {
-    if (next < 0 || next >= widget.pages.length) return;
+    if (next < 0 || next >= widget.pages.length || next == index) return;
     debounce?.cancel();
     setState(() {
       index = next;

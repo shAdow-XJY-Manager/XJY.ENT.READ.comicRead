@@ -38932,7 +38932,7 @@ try{q.LY()
 s=q.a
 A.aql("frequency.comic.progress."+s.c,B.b5.B2(A.aH(["page",s.e[q.x].a,"fraction",q.Q],t.N,t.K),null))}catch(r){if(q.c!=null&&!q.d&&q.at.length===0)q.aq(new A.a9T(q))}},
 wd(a,b){var s,r=this
-if(b<0||b>=r.a.e.length)return
+if(b<0||b>=r.a.e.length||b===r.x)return
 s=r.w
 if(s!=null)s.aF(0)
 r.aq(new A.a9U(r,b))
